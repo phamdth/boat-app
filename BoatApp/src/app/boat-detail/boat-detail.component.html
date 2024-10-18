@@ -1,0 +1,46 @@
+<div class="boat-details">
+  <h2>Boat Details</h2>
+  <div *ngIf="boat" class="details-content">
+    <div class="detail-item">
+      <label for="boatName">Name*:</label>
+      <span id="boatName">{{ boat.name }}</span>
+    </div>
+    <div class="detail-item">
+      <label for="boatDescription">Description*:</label>
+      <span id="boatDescription">{{ boat.description }}</span>
+    </div>
+    <div class="detail-item">
+      <label for="boatType">Type:</label>
+      <span id="boatType">{{ boat.type }}</span>
+    </div>
+    <div class="detail-item">
+      <label for="boatLength">Length:</label>
+      <span id="boatLength">{{ boat.length }}</span>
+    </div>
+    <div class="detail-item">
+      <label for="boatWidth">Width:</label>
+      <span id="boatWidth">{{ boat.width }}</span>
+    </div>
+    <div class="detail-item">
+      <label for="boatCapacity">Capacity:</label>
+      <span id="boatCapacity">{{ boat.capacity }}</span>
+    </div>
+    <div class="detail-item">
+      <label for="boatYearBuilt">Year Built:</label>
+      <span id="boatYearBuilt">{{ boat.yearBuilt }}</span>
+    </div>
+    <div class="detail-item">
+      <label for="boatPrice">Price:</label>
+      <span id="boatPrice">{{ boat.price }}</span>
+    </div>
+    <div class="detail-item">
+      <label for="boatImageUrl">Image Url:</label>
+      <span id="boatImageUrl">{{ boat.imageUrl }}</span>
+    </div>
+    <div class="detail-item">
+      <label for="boatStatus">Status:</label>
+      <span id="boatStatus">{{ boat.status }}</span>
+    </div>
+  </div>
+  <button class="btn-back" (click)="goBack()">Back to List</button>
+</div>

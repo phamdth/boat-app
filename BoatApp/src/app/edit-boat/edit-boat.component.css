@@ -1,0 +1,64 @@
+.edit-boat {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.boat-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: #ffc107;
+  color: white;
+  border: none;
+}
+
+.btn-edit:hover {
+  background-color: #e0a800;
+}
+
+.btn-back {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  margin-left: 10px;
+}
+
+.btn-back:hover {
+  background-color: #5a6268;
+}
